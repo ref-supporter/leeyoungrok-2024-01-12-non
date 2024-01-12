@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이영록 2024-01-12</title>
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        container: {
+          padding: {
+            DEFAULT: '1rem',
+            sm: '1rem',
+            lg: '27px',
+            xl: '27px',
+            '2xl': '27px',
+          },
+          center: true
+        },
+      }
+    }
+  </script>
+</head>
+<style>
+  body {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  }
+</style>
+<body class="bg-gray-200" stlye="">
+  <div class="container mt-[80px]">
+    <div class="grid grid-cols-12 gap-x-[16px] sm:gap-x-[32px]">
+      <!-- side layout -->
+      <div class="col-span-12 sm:col-span-6 lg:col-span-4 space-y-4">
+        <!-- card -->
+        <div>
+          <!-- header -->
+          <div class="h-[120px] rounded-t-[12px] relative overflow-hidden">
+            <img src="https://picsum.photos/1200/600?random=1" alt="" class="absolute w-full h-full object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          </div>
+          <!-- body -->
+          <div class="rounded-b-12px overflow-hidden bg-white pb-[16px] rounded-b-[12px]">
+            <div class="mt-[16px] px-[16px] grid grid-cols-[50px,1fr] gap-x-[12px]">
+              <div class="aspect-square rounded-full overflow-hidden">
+                <img src="https://picsum.photos/100/100?random=2" alt="" />
+              </div>
+              <div class="self-center">
+                <div class="font-bold text-[1.2em]">디자인 베이스</div>
+                <div class="text-gray-400 leading-none">디자인 강좌 전문 채널</div>
+              </div>
+            </div>
+            <div class="mt-[16px] px-[16px]">
+              <div class="grid grid-cols-3">
+                <div>
+                  <div class="font-bold text-[1.3em]">75</div>
+                  <div class="text-gray-400 text-[0.9em]">영상</div>
+                </div>
+                <div>
+                  <div class="font-bold text-[1.3em]">7.1K</div>
+                  <div class="text-gray-400 text-[0.9em]">팔로워</div>
+                </div>
+                <div>
+                  <div class="font-bold text-[1.3em]">158</div>
+                  <div class="text-gray-400 text-[0.9em]">팔로잉</div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-[16px] px-[16px]">
+              <button class="w-full bg-blue-700 text-white flex items-center justify-between gap-x-[8px] py-[4px] pr-[8px] px-[12px] rounded-full">
+                <span>팔로우</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                </svg>
+              </button>
+            </div>
+            <div class="mt-[16px] px-[16px] text-center">
+              <a href="#" class="text-blue-700 hover:text-blue-400 transition-colors">전체보기</a>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-[12px] bg-white pb-[16px]">
+          <div class="pt-[16px] px-[16px]">
+            <div class="flex justify-between items-center gap-x-[8px] py-[4px]">
+              <div class="text-[1.3em] font-bold">추천계정</div>
+              <button type="button" class="flex items-center gap-x-[4px] border rounded-[4px] py-[4px] px-[8px] text-[0.9em]">
+                <span>전체보기</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="mt-[16px] px-[16px]">
+            <!-- list -->
+            <ul class="space-y-[16px]">
+              <!--  -->
+              <li>
+                <div class="grid grid-cols-[75px,1fr] gap-x-[12px] items-center">
+                  <div class="aspect-square rounded-full overflow-hidden">
+                    <img src="https://picsum.photos/100/100?random=3" alt="" />
+                  </div>
+                  <div class="grid gap-y-[2px]">
+                    <div>에리카</div>
+                    <div class="text-[0.85em]">1.2만명 팔로워</div>
+                    <div>
+                      <button type="button" class="flex items-center gap-x-[4px] rounded-[8px] py-[4px] px-[8px] bg-blue-700 text-white text-[0.9em]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                        </svg>
+                        <div>팔로우</div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+
+                <div class="grid grid-cols-[75px,1fr] gap-x-[12px] items-center">
+                  <div class="aspect-square rounded-full overflow-hidden">
+                    <img src="https://picsum.photos/100/100?random=4" alt="" />
+                  </div>
+                  <div class="grid gap-y-[2px]">
+                    <div>디지털노마드</div>
+                    <div class="text-[0.85em]">3만명 팔로워</div>
+                    <div>
+                      <button type="button" class="flex items-center gap-x-[4px] rounded-[8px] py-[4px] px-[8px] bg-blue-700 text-white text-[0.9em]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                        </svg>
+                        <div>팔로우</div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="grid grid-cols-[75px,1fr] gap-x-[12px] items-center">
+                  <div class="aspect-square rounded-full overflow-hidden">
+                    <img src="https://picsum.photos/100/100?random=5" alt="" />
+                  </div>
+                  <div class="grid gap-y-[2px]">
+                    <div>메이크스튜디오</div>
+                    <div class="text-[0.85em]">8,3만명 팔로워</div>
+                    <div>
+                      <button type="button" class="flex items-center gap-x-[4px] rounded-[8px] py-[4px] px-[8px] bg-blue-700 text-white text-[0.9em]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                        </svg>
+                        <div>팔로우</div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-12 sm:col-span-6 lg:col-span-8">
+        <div class="prose max-w-none py-[32px]">
+          <h1>컨텐츠 영역</h1>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>
